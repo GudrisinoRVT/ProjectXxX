@@ -1,0 +1,78 @@
+
+Pc@DESKTOP-M63TEUS MINGW64 ~ (master)
+$ cd dekstop
+bash: cd: dekstop: No such file or directory
+
+Pc@DESKTOP-M63TEUS MINGW64 ~ (master)
+$ cd Dekstop
+bash: cd: Dekstop: No such file or directory
+
+Pc@DESKTOP-M63TEUS MINGW64 ~ (master)
+$ cd Desktop
+
+Pc@DESKTOP-M63TEUS MINGW64 ~/Desktop (master)
+$ cd Desktop/GitHub
+bash: cd: Desktop/GitHub: No such file or directory
+
+Pc@DESKTOP-M63TEUS MINGW64 ~/Desktop (master)
+$ cd Github
+
+Pc@DESKTOP-M63TEUS MINGW64 ~/Desktop/Github (master)
+$ cd Test
+
+Pc@DESKTOP-M63TEUS MINGW64 ~/Desktop/Github/Test (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Pc/Desktop/GitHub/Test/.git/
+
+Pc@DESKTOP-M63TEUS MINGW64 ~/Desktop/Github/Test (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+Pc@DESKTOP-M63TEUS MINGW64 ~/Desktop/Github/Test (master)
+$ git add .
+
+Pc@DESKTOP-M63TEUS MINGW64 ~/Desktop/Github/Test (master)
+$ git commit -m 'Otrais meginajums'
+[master 2ace93b] Otrais meginajums
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 b.txt
+ create mode 100644 master
+
+Pc@DESKTOP-M63TEUS MINGW64 ~/Desktop/Github/Test (master)
+$ git push orogin master
+fatal: 'orogin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Pc@DESKTOP-M63TEUS MINGW64 ~/Desktop/Github/Test (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 281 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/GudrisinoRVT/ProjectXxX.git
+   4fefff9..2ace93b  master -> master
+---------------------------------------------------------------------------------------------------------
+
+Pc@DESKTOP-M63TEUS MINGW64 ~ (master)
+$
+
+Pc@DESKTOP-M63TEUS MINGW64 ~ (master)
+$ cd Desktop
+
+Pc@DESKTOP-M63TEUS MINGW64 ~/Desktop (master)
+$ cd Github
+
+Pc@DESKTOP-M63TEUS MINGW64 ~/Desktop/Github (master)
+$ cd Test
+
+Pc@DESKTOP-M63TEUS MINGW64 ~/Desktop/Github/Test (master)
+$ git clone https://github.com/GudrisinoRVT/ProjectXxX.git
+
+
